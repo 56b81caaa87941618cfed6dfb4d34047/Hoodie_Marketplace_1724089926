@@ -6,7 +6,7 @@
 Vue.component("quoty_faq_accordion_component_1724089929", {
     template: `
     <section class="py-8 bg-white pl-4">
-        <h2 class="text-lg font-semibold mb-5">PLACEHOLDER_FAQ_TITLE</h2>
+        <h2 class="text-lg font-semibold mb-5">Frequently Asked Questions</h2>
         <!-- Accordion -->
         <div class="space-y-3">
             <!-- Accordion item -->
@@ -35,10 +35,10 @@ Vue.component("quoty_faq_accordion_component_1724089929", {
     data() {
         return {
             terms: [
-                { title: "ACCORDION_QUESTION_1", description: "ACCORDION_ANSWER_1", expanded: false },
-                { title: "ACCORDION_QUESTION_2", description: "ACCORDION_ANSWER_2", expanded: false },
-                { title: "ACCORDION_QUESTION_3", description: "ACCORDION_ANSWER_3", expanded: false },
-                { title: "ACCORDION_QUESTION_4", description: "ACCORDION_ANSWER_4", expanded: false },
+                { title: "How do I find the right size hoodie?", description: "We provide detailed size charts for each hoodie. Measure yourself and compare with our charts to find your perfect fit. If you're between sizes, we recommend sizing up for a looser fit.", expanded: false },
+                { title: "What materials are your hoodies made from?", description: "Our hoodies are crafted from high-quality materials, including cotton blends and fleece. Each product listing specifies the exact fabric composition to help you make an informed choice.", expanded: false },
+                { title: "Do you offer international shipping?", description: "Yes, we ship worldwide! Shipping costs and delivery times vary depending on your location. You can view shipping options and rates at checkout before finalizing your purchase.", expanded: false },
+                { title: "What is your return policy?", description: "We offer a 30-day return policy for unworn, unwashed items in their original condition. If you're unsatisfied with your purchase, simply initiate a return through your account, and we'll guide you through the process.", expanded: false },
             ],
         };
     },
